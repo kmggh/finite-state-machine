@@ -3,8 +3,8 @@ Finite State Machine Problem
 
 
 
-Ken Guyton
-Wed 2014-02-12 17:02:45 -0500
+Ken Guyton<br>
+Wed 2014-02-12 17:02:45 -0500<br>
 
 
 
@@ -42,4 +42,28 @@ goto A
 
 in = 2:
 goto B
+
+
+To Run
+------
+
+    ./run_fsm.py
+
+
+Results
+-------
+
+From running it.
+
+    ./run_fsm.py
+    State A Input 1 Output m
+    State B Input 2 Output a
+    State B Input 1 State A Input 1 Output m
+    State B Input 2 Output a
+    State B Input 2 Output j
+    State C Input 2 State B Input 2 Output a
+    State B Input 1 State A Input 1 Output m
+    State B Input 2 Output a
+    Done
+
 

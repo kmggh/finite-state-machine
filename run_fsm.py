@@ -2,7 +2,15 @@
 # Copyright (C) 2014 by Ken Guyton.  All Rights Reserved.
 
 
-"""Run a finite state machine."""
+"""Run a finite state machine.
+
+Each action is defined by four components:
+
+input_val:  The input read into the action.
+last_output:  Valid last outputs (previous outputs) before this action.
+output_val:  The output value this action outputs if the above match.
+next_state: The name of the next state.
+"""
 
 from __future__ import print_function
 
