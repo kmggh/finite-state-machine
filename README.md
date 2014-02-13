@@ -8,7 +8,7 @@ Wed 2014-02-12 17:02:45 -0500
 
 
 
-From an email message from Kirk Bromfield on a finite state machine
+From an email message from Kirk on a finite state machine
 problem. 
 
 Here's the input:
